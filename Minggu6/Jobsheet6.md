@@ -16,7 +16,8 @@ No. Absen : 11
         Push berfungsi untuk mengirim commit dari repository lokal ke repository remote (Github).   
              
 3. Add Test.txt. Untuk Add semua perubahan yang dilakukan, Anda bisa menggunakan icon
-"+" di sisi kanan Changes. Lakukan Stage All Changes kemudian Commit & Push.    
+"+" di sisi kanan Changes. Lakukan Stage All Changes kemudian Commit & Push.     
+        ![A beautiful sunset over the ocean](images/sunset.jpg "Golden Hour Sunset")
     
 
 ## TUGAS  
