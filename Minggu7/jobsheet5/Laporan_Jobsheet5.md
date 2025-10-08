@@ -9,7 +9,7 @@ Penerapan IF dan IF-ELSE untuk Mencetak KRS
 2. Saat program dijalankan, kemudian Anda mengisikan nilai false, bagaimana hasilnya?
     * Program tidak menampilkan apa-appa karena sebelumnya tidak ada perintah jika nilai diisi dengan false.
 3. Sistem perlu memberikan informasi apabila pengguna memasukkan nilai false, maka terdapat keluaran “Registrasi ditolak. Silakan lunasi UKT terlebih dahulu”. Modifikasi program tersebut dengan menambahkan struktur ELSE!   
-   * ![Alt Text](imageurl "Image title")
+   * ![ifCetakKRS11](C:\Users\DHAFIR\Documents\Daspro SMT1\Git-Daspro\PraktikumDaspro\Minggu7\jobsheet5\ifCetakKRS11.png "Modifikasi Percobaan 1")
 4. Commit dan push hasil modifikasi Anda ke Github dengan pesan “Modifikasi Percobaan 1”
 
 ## Percobaan 2   
@@ -20,7 +20,7 @@ Switch-case untuk mencetak KRS
 2. Apa peran dari sintaks default pada struktur pemilihan SWITCH-CASE?   
     Untuk membuat tindakan apabila tidak ada CASE yang sesuai.
 3. Buat file baru dengan nama ifElseCetakKRSNoPresensi.java. File ini berisi program hasil transformasi dari program cetak KRS menggunakan struktur SWITCH-CASE yang telah dibuat ke dalam bentuk IF-ELSE IF-ELSE.   
-   * ![Alt Text](imageurl "Image title")
+   * ![ifElseCetakKRS11](C:\Users\DHAFIR\Documents\Daspro SMT1\Git-Daspro\PraktikumDaspro\Minggu7\jobsheet5\ifElseCetakKRS11.png "Transformasi SWITCH-CASE ke IF-ELSE IF-ELSE")
 4. Commit dan push hasil modifikasi Anda ke Github dengan pesan “Modifikasi Percobaan 2”   
    
 ## Percobaan 3   
