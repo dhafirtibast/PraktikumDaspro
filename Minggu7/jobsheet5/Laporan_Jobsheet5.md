@@ -46,8 +46,8 @@ Nested IF untuk Mengecek Syarat Ujian Skripsi
 
       * Langkah 1: Memeriksa input (Ya/Tidak). Apabila input adalah "Ya", maka lanjut ke log bimbingan. Jika "Tidak", maka langsung gagal dengan pesan "Gagal! Mahasiswa masih memiliki tanggungan kompen".
       * Langkah 2: Memeriksa jumlah log bimbingan.
-           - bimbinganP1 >= 8 && bimbinganP2 >= 4, maka semua syarat terpenuhi.
-           - bimbinganP1 < 8 && bimbinganP2 < 4, maka output "Gagal! Keduanya belum cukup".
-           - bimbinganP1 < 8, maka output "Gagal! P1 belum cukup".
-           - bimbinganP2 < 4, maka output "Gagal! P2 belum cukup".
+           - bimbinganP1 >= 8 && bimbinganP2 >= 4; jika log bimbinganP1 lebih dari sama dengan 8 dan log bimbinganP2 lebih dari sama dengan 4, maka semua syarat terpenuhi.
+           - bimbinganP1 < 8 && bimbinganP2 < 4; jika log bimbinganP1 kuraang dari 8 dan log bimbinganP2 kurang dari 4, maka output "Gagal! Keduanya belum cukup".
+           - bimbinganP1 < 8; jika log bimbinganP1 kurang dari 8, maka output "Gagal! P1 belum cukup".
+           - bimbinganP2 < 4; jika log bimbinganP2 kurang dari 4, maka output "Gagal! P2 belum cukup".
 
