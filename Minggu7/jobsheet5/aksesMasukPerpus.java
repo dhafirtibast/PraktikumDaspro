@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class aksesMasukParkir {
+public class aksesMasukPerpus {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         boolean bawa_kartu, registrasi_online;
@@ -13,7 +13,7 @@ public class aksesMasukParkir {
         registrasi_online = (jawaban_regis == 'y');
 
         if (bawa_kartu || registrasi_online) {
-            System.out.println("Anda boleh masuk.");
+            System.out.println("Akses diberikan.");
         }else {
             System.out.println("Akses tidak diberikan.");
         }
