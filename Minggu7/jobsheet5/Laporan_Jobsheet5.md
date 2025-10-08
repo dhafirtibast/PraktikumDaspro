@@ -26,7 +26,7 @@ Switch-case untuk mencetak KRS
 ## Percobaan 3   
 Nested IF untuk Mengecek Syarat Ujian Skripsi  
    
-1. Apa yang terjadi jika mahasiswa menjawab "No" pada pertanyaan bebas kompen? Mengapa demikian?
+1. Apa yang terjadi jika mahasiswa menjawab "No" pada pertanyaan bebas kompen? Mengapa demikian?   
     Jika mahasiswa menjawab "No", maka program akan masuk ke bagian else:
 
        else {
