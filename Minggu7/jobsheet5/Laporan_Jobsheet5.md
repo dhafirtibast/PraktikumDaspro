@@ -9,7 +9,7 @@ Penerapan IF dan IF-ELSE untuk Mencetak KRS
 2. Saat program dijalankan, kemudian Anda mengisikan nilai false, bagaimana hasilnya?
     * Program tidak menampilkan apa-appa karena sebelumnya tidak ada perintah jika nilai diisi dengan false.
 3. Sistem perlu memberikan informasi apabila pengguna memasukkan nilai false, maka terdapat keluaran “Registrasi ditolak. Silakan lunasi UKT terlebih dahulu”. Modifikasi program tersebut dengan menambahkan struktur ELSE!   
-   * ![ifCetakKRS11](C:\Users\DHAFIR\Documents\Daspro SMT1\Git-Daspro\PraktikumDaspro\Minggu7\jobsheet5\ifCetakKRS11.png "Modifikasi Percobaan 1")
+   * ![ifCetakKRS11](https://github.com/dhafirtibast/PraktikumDaspro/blob/main/Minggu7/jobsheet5/ifCetakKRS11.png "Modifikasi Percobaan 1")
 4. Commit dan push hasil modifikasi Anda ke Github dengan pesan “Modifikasi Percobaan 1”
 
 ## Percobaan 2   
