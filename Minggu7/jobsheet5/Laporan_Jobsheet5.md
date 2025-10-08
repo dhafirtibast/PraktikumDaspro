@@ -20,7 +20,7 @@ Switch-case untuk mencetak KRS
 2. Apa peran dari sintaks default pada struktur pemilihan SWITCH-CASE?   
     Untuk membuat tindakan apabila tidak ada CASE yang sesuai.
 3. Buat file baru dengan nama ifElseCetakKRSNoPresensi.java. File ini berisi program hasil transformasi dari program cetak KRS menggunakan struktur SWITCH-CASE yang telah dibuat ke dalam bentuk IF-ELSE IF-ELSE.   
-   * ![ifElseCetakKRS11](C:\Users\DHAFIR\Documents\Daspro SMT1\Git-Daspro\PraktikumDaspro\Minggu7\jobsheet5\ifElseCetakKRS11.png "Transformasi SWITCH-CASE ke IF-ELSE IF-ELSE")
+   * ![ifElseCetakKRS11](https://github.com/dhafirtibast/PraktikumDaspro/blob/main/Minggu7/jobsheet5/ifElseCetakKRS11.png "Transformasi SWITCH-CASE ke IF-ELSE IF-ELSE")
 4. Commit dan push hasil modifikasi Anda ke Github dengan pesan “Modifikasi Percobaan 2”   
    
 ## Percobaan 3   
