@@ -4,13 +4,11 @@ public class aksesMasukPerpus {
         Scanner sc = new Scanner(System.in);
         boolean bawa_kartu, registrasi_online;
 
-        System.out.print("Apakah anda membawa kartu? (y/n) : ");
-        char jawaban_kartu = sc.next().toLowerCase().charAt(0);
-        bawa_kartu = (jawaban_kartu == 'y');
+        System.out.print("Apakah anda membawa kartu? (true/false) : ");
+        boolean jawaban_kartu;
 
-        System.out.print("Apakah anda sudah registrasi online? (y/n) : ");
-        char jawaban_regis = sc.next().toLowerCase().charAt(0);
-        registrasi_online = (jawaban_regis == 'y');
+        System.out.print("Apakah anda sudah registrasi online? (true/false) : ");
+        boolean jawaban_regis;
 
         if (bawa_kartu || registrasi_online) {
             System.out.println("Akses diberikan.");
