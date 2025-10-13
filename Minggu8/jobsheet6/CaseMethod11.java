@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class CaseMethod {
+public class CaseMethod11 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -77,7 +77,7 @@ public class CaseMethod {
             if (rata2Akhir >= 70) {
                 statSmt = "LULUS";
             } else {
-                statSmt = "TIDAK LULUS";
+                statSmt = "TIDAK LULUS (Rata-rata < 70)";
             }
         } else {
             statSmt = "TIDAK LULUS";
@@ -88,8 +88,16 @@ public class CaseMethod {
         System.out.println("Nama: "+ nama);
         System.out.println("NIM : "+ nim);
         System.out.println(" ");
-        System.out.printf("%-25s %-5s %-7s %-7s %-10s %-12s %-12s\n",
+        System.out.printf("%-25s %-5s %-7s %-7s %-15s %-15s %-12s\n",
                         "Mata Kuliah", "UTS", "UAS", "Tugas", "Nilai Akhir", "Nilai Huruf", "Status");
+        System.out.print("----------------------------------------------------------------------------------\n");
+        System.out.printf("%-25s %-5s %-7s %-7s %-15s %-15s %-12s\n",
+                        "Algoritma Pemrograman", nilaiUtsAlgo, nilaiUasAlgo, nilaiTugasAlgo, nilaiAkhirAlgo, nilaiHurufAlgo, statAlgo);
+        System.out.printf("%-25s %-5s %-7s %-7s %-15s %-15s %-12s\n",
+                        "Struktur Data", nilaiUtsStrukdat, nilaiUasStrukdat, nilaiTugasStrukdat, nilaiAkhirStrukdat, nilaiHurufStrukdat, statStrukdat);
+        System.out.println(" ");
+        System.out.println("Rata-rata Nilai Akhir: " + rata2Akhir);
+        System.out.println("Status Semester     : " + statSmt);
 
     }
 }
