@@ -2,6 +2,8 @@ import java.util.Scanner;
 public class UTS_11 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        double kehadiran = 0.0;
+        double etika = 0.0;
 
         System.out.println("===== INPUT DATA MAHASISWA =====");
         System.out.print("Nama: ");
@@ -26,6 +28,14 @@ public class UTS_11 {
         double nilaiTugasStrukdat = sc.nextDouble();
         System.out.println(" ");
 
+        System.out.println("--- Input nilai kehadiran ---");
+        System.out.print("Nilai kehadiran: ");
+        kehadiran = sc.nextDouble();
+        System.out.print("Nilai etika: ");
+        etika = sc.nextDouble();
+        System.out.println(" ");
+        
+
         double nilaiAkhirAlgo = (nilaiUtsAlgo * 0.3) + (nilaiUasAlgo * 0.4) + (nilaiTugasAlgo * 0.3);
         double nilaiAkhirStrukdat = (nilaiUtsStrukdat * 0.3) + (nilaiUasStrukdat * 0.4) + (nilaiTugasStrukdat * 0.3);
 
@@ -33,34 +43,34 @@ public class UTS_11 {
         String nilaiHurufStrukdat = null;
 
         //Konversi Nilai Huruf Algoritma
-        if (100 >= nilaiAkhirAlgo || nilaiAkhirAlgo > 80) {
+        if (100 >= nilaiAkhirAlgo && nilaiAkhirAlgo > 80) {
             nilaiHurufAlgo = "A";
-        } else if (80 >= nilaiAkhirAlgo || nilaiAkhirAlgo >73) {
+        } else if (80 >= nilaiAkhirAlgo && nilaiAkhirAlgo >73) {
             nilaiHurufAlgo = "B+";
-        } else if (73 >= nilaiAkhirAlgo || nilaiAkhirAlgo > 65) {
+        } else if (73 >= nilaiAkhirAlgo && nilaiAkhirAlgo > 65) {
             nilaiHurufAlgo = "B";
-        } else if (65 >= nilaiAkhirAlgo || nilaiAkhirAlgo >60) {
+        } else if (65 >= nilaiAkhirAlgo && nilaiAkhirAlgo >60) {
             nilaiHurufAlgo = "C+";
-        } else if (60 >= nilaiAkhirAlgo || nilaiAkhirAlgo >50) {
+        } else if (60 >= nilaiAkhirAlgo && nilaiAkhirAlgo >50) {
             nilaiHurufAlgo = "C";
-        } else if (50 >= nilaiAkhirAlgo || nilaiAkhirAlgo >39) {
+        } else if (50 >= nilaiAkhirAlgo && nilaiAkhirAlgo >39) {
             nilaiHurufAlgo = "D";
         } else {
             nilaiHurufAlgo = "E";
         }
 
         //Konversi Nilai Huruf Struktur Data 
-        if (100 >= nilaiAkhirStrukdat || nilaiAkhirStrukdat > 80) {
+        if (100 >= nilaiAkhirStrukdat && nilaiAkhirStrukdat > 80) {
             nilaiHurufStrukdat = "A";
-        } else if (80 >= nilaiAkhirStrukdat || nilaiAkhirStrukdat >73) {
+        } else if (80 >= nilaiAkhirStrukdat && nilaiAkhirStrukdat >73) {
             nilaiHurufStrukdat = "B+";
-        } else if (73 >= nilaiAkhirStrukdat || nilaiAkhirStrukdat > 65) {
+        } else if (73 >= nilaiAkhirStrukdat && nilaiAkhirStrukdat > 65) {
             nilaiHurufStrukdat = "B";
-        } else if (65 >= nilaiAkhirStrukdat || nilaiAkhirStrukdat >60) {
+        } else if (65 >= nilaiAkhirStrukdat && nilaiAkhirStrukdat >60) {
             nilaiHurufStrukdat = "C+";
-        } else if (60 >= nilaiAkhirStrukdat || nilaiAkhirStrukdat >50) {
+        } else if (60 >= nilaiAkhirStrukdat && nilaiAkhirStrukdat >50) {
             nilaiHurufStrukdat = "C";
-        } else if (50 >= nilaiAkhirStrukdat || nilaiAkhirStrukdat >39) {
+        } else if (50 >= nilaiAkhirStrukdat && nilaiAkhirStrukdat >39) {
             nilaiHurufStrukdat = "D";
         } else {
             nilaiHurufStrukdat = "E";
@@ -74,10 +84,17 @@ public class UTS_11 {
         double rata2Akhir = (nilaiAkhirAlgo + nilaiAkhirStrukdat) / 2.0;
         
         if (statAlgo.equals("LULUS") && statStrukdat.equals("LULUS")) {
-            if (rata2Akhir >= 70) {
+            if (rata2Akhir >= 60) {
                 statSmt = "LULUS";
+            } if (kehadiran >= 75) {
+                  statSmt = "LULUS";
+                if (etika >= 70) {
+                    statSmt = "LULUS";
+                } else {
+                    statSmt = "TIDAK LULUS";
+                }
             } else {
-                statSmt = "TIDAK LULUS (Rata-rata < 70)";
+                statSmt = "TIDAK LULUS";
             }
         } else {
             statSmt = "TIDAK LULUS";
@@ -95,6 +112,9 @@ public class UTS_11 {
                         "Algoritma Pemrograman", nilaiUtsAlgo, nilaiUasAlgo, nilaiTugasAlgo, nilaiAkhirAlgo, nilaiHurufAlgo, statAlgo);
         System.out.printf("%-25s %-5s %-7s %-7s %-15s %-15s %-12s\n",
                         "Struktur Data", nilaiUtsStrukdat, nilaiUasStrukdat, nilaiTugasStrukdat, nilaiAkhirStrukdat, nilaiHurufStrukdat, statStrukdat);
+        System.out.println("--------------------------------------------------------");
+        System.out.println("Nilai Kehadiran :    " + kehadiran);
+        System.out.println("Nilai Etika     :    " + etika);
         System.out.println(" ");
         System.out.println("Rata-rata Nilai Akhir: " + rata2Akhir);
         System.out.println("Status Semester     : " + statSmt);
