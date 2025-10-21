@@ -6,7 +6,6 @@ public class Tugas2_jobsheet7_11 {
         int jenisKendaraan, durasi, total = 0;
 
         do {
-            System.out.println(" ");
             System.out.println("=== Sistem Parkir ===");
             System.out.print(" 1. Mobil\n 2. Motor\n 0. Keluar\n");
             System.out.print("Masukkan jenis kendaraan: ");
@@ -31,6 +30,7 @@ public class Tugas2_jobsheet7_11 {
 
             }
             System.out.println("Total biaya parkir: Rp" + total);
+            System.out.println("------------------------------");
         } while (jenisKendaraan != 0);
         
     } 
