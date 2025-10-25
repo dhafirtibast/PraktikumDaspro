@@ -36,11 +36,11 @@ dan terendah!
         if (nilai < 0 || nilai > 100) {
             System.out.println("Nilai tidak valid. Masukkan lagi nilai yang valid!");
             continue;
-        }
+        }    
 a. nilai < 0 || nilai > 100    
-    Sintaks di atas berfungsi untuk mengevaluasi apakah nilai berada di rentang 0-100. Jika 'nilai' kurang dari 0 atau 'nilai' lebih dari 100, maka nilai tidak valid dan program akan menampilkan teks.
-b. continue    
-    Sintaks ini berfungsi agar input yang tidak valid tidak diproses di kode berikutnya dan program akan langsung mengulang ke bagian input nilai.
+    Sintaks di atas berfungsi untuk mengevaluasi apakah nilai berada di rentang 0-100. Jika 'nilai' kurang dari 0 atau 'nilai' lebih dari 100, maka nilai tidak valid dan program akan menampilkan teks.    
+b. continue       
+    Sintaks ini berfungsi agar input yang tidak valid tidak diproses di kode berikutnya dan program akan langsung mengulang ke bagian input nilai.   
 2. Mengapa sintaks i++ dituliskan di akhir perulangan WHILE? Apa yang terjadi jika posisinya dituliskan di awal perulangan WHILE?    
     - Sintaks i++ ditulis di akhir perulangan WHILE berarti data pada i akan diproses terlebih dahulu lalu nilai i ditambah. Perulangan i=0 akan dijalankan terlebih dahulu lalu i ditambah menjadi i=1.
     - Jika sintaks i++ diletakkan di awal, maka nilai i ditambah terlebih dahulu lalu kode diproses. Ini berarti program tidak menjalankan kode pada indeks i awal dan langsung menajalankan kode pada indeks selanjutnya.
