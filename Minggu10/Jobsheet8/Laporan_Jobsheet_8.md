@@ -1,6 +1,9 @@
-# Laporan Jobsheet 8: Perulangan 2
+<h1 align="center">
+ Laporan Jobsheet 8: Perulangan 2
+</h1>
 Laporan Praktikum Dasar Pemrograman: Nested Loop     
 
+        
 Nama: Dhafir Tsabit   
 NIM: 254107020148   
 Kelas: TI-1C   
