@@ -22,7 +22,7 @@ for (int i = 0; i < 4; i++) {
 }
 ```
 Apa keluaran dari program? Jelaskan maksud dari statement tersebut.    
-* Gambar     
+* ![Percobaan 1](url "Pertanyaan 3")     
      
 Statement tersebut bermaksud untuk menampilkan elemen array menggunakan perulangan.   
 4. Jika kondisi pada statement for-loop di atas diubah menjadi: i <= 4, apa keluaran dari program? Mengapa demikian?     
