@@ -1,5 +1,7 @@
-# Laporan Praktikum Jobsheet 9
-Laporan praktikum materi array 1 dimensi.   
+<h1 align="center">
+Laporan Praktikum Jobsheet 9
+</h1>
+Laporan Praktikum Materi Array 1 Dimensi.   
    
 Nama: Dhafir Tsabit    
 NIM: 254107020148   
