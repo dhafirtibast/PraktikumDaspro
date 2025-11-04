@@ -9,7 +9,7 @@ Kelas: TI-1C
 No. Absen: 11   
    
 ## Percobaan 1
-1. Jika isi masing-masing elemen array bil diubah dengan angka 5.0, 12867, 7.5, 2000000. Apa yang terjadi? Mengapa bisa demikian?
+1. Jika isi masing-masing elemen array bila diubah dengan angka 5.0, 12867, 7.5, 2000000. Apa yang terjadi? Mengapa bisa demikian?
 - Program akan error dan menampilkan pesan "Type mismatch: cannot convert from double to int". Hal tersebut terjadi karena elemen tidak sesuai dengan deklarasi tipe data.  
 2. Modifikasi kode program di atas dengan melakukan inisialisasi elemen array sekaligus pada saat deklarasi array. 
 ```java
@@ -58,6 +58,27 @@ for (int i = 0; i < nilaiAkhir.length; i++) {
 Jalankan program dan jelaskan alur program!      
 Perulangan kedua digunakan untuk memeriksa setiap elemen array. Jika nilai lebih dari 70, maka dianggap lulus dan ditampilkan ke layar.    
 4. Modifikasi program agar menampilkan status kelulusan semua mahasiswa berdasarkan nilai, yaitu dengan menampilkan status mana mahasiswa yang lulus dan tidak lulus, seperti ilustrasi output pada _jobsheet_!    
+```java
+import java.util.Scanner;
+public class ArrayNilai11 {
+    public static void main(String[] args) {
+        java.util.Scanner sc = new Scanner(System.in);
+        int[] nilaiAkhir = new int[10];
+
+        for (int i = 0; i < nilaiAkhir.length; i++) {
+            System.out.print("Masukkan nilai akhir ke-"+i+" : ");
+            nilaiAkhir[i] = sc.nextInt();
+        }
+        for (int i = 0; i < nilaiAkhir.length; i++) {
+            if (nilaiAkhir[i] > 70) {
+                System.out.println("Mahasiswa ke-"+i+" lulus!");
+            } else {
+                System.out.println("Mahasiswa ke-"+i+" tidak lulus!");
+            }
+        }
+    }
+}
+```
     
 ## Percobaan 3
 1. Modifikasi kode program pada praktikum percobaan 3 di atas (ArrayRataNilai11.java) agar program dapat menampilkan banyaknya mahasiswa yang lulus, yaitu mahasiswa yang memiliki lebih besar dari 70 (>70).    
