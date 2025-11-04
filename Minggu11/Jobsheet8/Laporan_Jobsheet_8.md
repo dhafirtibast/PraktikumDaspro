@@ -1,3 +1,14 @@
+<h1 align="center">
+ Laporan Jobsheet 8: Perulangan 2
+</h1>
+Laporan Praktikum Dasar Pemrograman: Nested Loop     
+
+        
+Nama: Dhafir Tsabit   
+NIM: 254107020148   
+Kelas: TI-1C   
+No. Absen: 11   
+   
 ###  Percobaan 1
 1. Jika pada perulangan for, inisialisasi i = 1 diubah menjadi i = 0, apa akibatnya? Mengapa bisa demikian?     
     Jika inisialisasi diubah menjadi i = 0, maka iterasi atau perulangan kode terjadi sebanyak n+1 kali karena iterasi dimulai dari i = 0. 
