@@ -9,9 +9,6 @@ public class ArrayBilangan11 {
         for (int i = 0; i < 4; i++) {
             System.out.println(bil[i]);
         }
-
-        
-
     }
 }
 ```
@@ -22,7 +19,7 @@ for (int i = 0; i < 4; i++) {
 }
 ```
 Apa keluaran dari program? Jelaskan maksud dari statement tersebut.    
-* ![Percobaan 1](url "Pertanyaan 3")     
+* ![Percobaan 1](https://github.com/dhafirtibast/PraktikumDaspro/blob/main/Minggu12/Jobsheet9/Pertanyaan3_Percobaan1.png "Pertanyaan 3")     
      
 Statement tersebut bermaksud untuk menampilkan elemen array menggunakan perulangan.   
 4. Jika kondisi pada statement for-loop di atas diubah menjadi: i <= 4, apa keluaran dari program? Mengapa demikian?     
