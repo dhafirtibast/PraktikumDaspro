@@ -62,7 +62,4 @@ for loop:
 4. Pada menu 1, modifikasi kode program untuk memberikan warning apabila kursi yang dipilih sudah terisi oleh penonton lainnya lalu munculkan perintah untuk memasukkan baris dan kolom kembali  
 5. Pada menu 2, jika kursi kosong, ganti null dengan ***     
      
-* [View BioskopWithScanner11.java][def]
-
-
-[def]: src/BioskopWithScanner11.java
+* [View BioskopWithScanner11.java](src/BioskopWithScanner11.java)
