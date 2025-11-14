@@ -1,4 +1,14 @@
+<h1 align="center">
+Laporan Praktikum Jobsheet 11
+</h1>
+Laporan Praktikum Materi Array 2 Dimensi.   
+   
+Nama: Dhafir Tsabit    
+NIM: 254107020148   
+Kelas: TI-1C   
+No. Absen: 11   
 ## Percobaan 1
+### Pertanyaan
 1. Apakah pengisian elemen array harus dilakukan secara berurutan mulai dari indeks ke-0? Jelaskan!   
 * Tidak harus. Pengisian array tetap bisa dilakukan secara acak asalkan. indeks elemen tidak menyalahi aturan atau di luar batas ukuran array.   
 2. Mengapa terdapat null pada daftar nama penonton?   
@@ -52,6 +62,7 @@ for loop:
 * Untuk menggabungkan beberapa string menjadi satu string dengan pemisah tertentu.
 
 ## Percobaan 2
+### Pertanyaan
 1. Apakah pengisian elemen array dari scanner harus dilakukan secara berurutan mulai dari indeks ke-0? Jelaskan!    
 * Tidak, selama indeks valid dan dalam batas ukuran, maka pengisian elemen bisa dimulai dari indeks manapun kecuali jika ingin menampilkan secara berurutan.
 2. Modifikasi kode program untuk memberikan opsi menu sebagai berikut:   
@@ -62,4 +73,28 @@ for loop:
 4. Pada menu 1, modifikasi kode program untuk memberikan warning apabila kursi yang dipilih sudah terisi oleh penonton lainnya lalu munculkan perintah untuk memasukkan baris dan kolom kembali  
 5. Pada menu 2, jika kursi kosong, ganti null dengan ***     
      
-* [View BioskopWithScanner11.java](src/BioskopWithScanner11.java)
+## Percobaan 3   
+### Pertanyaan
+1. Tambahkan kode program sebagai berikut    
+```java
+for (int i = 0; i < myNumbers.length; i++) {
+    System.out.println(Arrays.toString(myNumbers[i]));
+}
+```    
+2. Apa fungsi dari Arrays.toString()?    
+* Mengubah array menjadi String agar mudah dibaca.
+3. Apa nilai default untuk elemen pada array dengan tipe data int?    
+* Nilai default-nya adalah 0.
+4. Tambahkan kode program berikut    
+```java
+for (int i = 0; i < myNumbers.length; i++) {
+    System.out.println("Panjang baris ke-"+(i+1)+": "+myNumbers[i].length);
+}
+```    
+5. Array myNumbers memiliki length berbeda untuk setiap barisnya. Apakah panjang array dapat dimodifikasi setelah diinstansiasi?   
+* Tidak. panjang array tidak dapat diubah setelah instansiasi.    
+     
+## Percobaan 4
+### Pertanyaan
+1. Bagaimana jika terdapat perubahan jumlah siswa dan jumlah mata kuliah? Modifikasi kode program SIAKAD untuk mengakomodasi jumlah siswa dan jumlah mata kuliah yang dinamis.    
+* [Modifikasi Percobaan 4](file:///C:\Users\DHAFIR\Documents\DasproSMT1\Git-Daspro\PraktikumDaspro\Minggu12\Jobsheet11/SIAKAD11.java)
