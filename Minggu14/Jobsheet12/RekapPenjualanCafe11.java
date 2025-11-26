@@ -8,8 +8,15 @@ public class RekapPenjualanCafe11 {
         tampilRerata(data);
     }
     static int[][] inputData() {
-        int[][] hasilPenjualan = new int[5][7];
         Scanner sc = new Scanner(System.in);
+
+        System.out.print("Masukkan jumlah menu: ");
+        int jmlMenu = sc.nextInt();
+        System.out.print("Masukkan jumlah hari: ");
+        int jmlHari = sc.nextInt();
+
+        int[][] hasilPenjualan = new int[jmlMenu][jmlHari];
+
         for (int i = 0; i < hasilPenjualan.length; i++) {
             for (int j = 0; j < hasilPenjualan[i].length; j++) {
                 System.out.print("Input penjualan menu ke-"+(i+1)+" hari ke-"+(j+1)+": ");
@@ -51,10 +58,10 @@ public class RekapPenjualanCafe11 {
         System.out.println("Rata-rata penjualan tiap menu: ");
         for (int i = 0; i < x.length; i++) {
             int tmp = 0;
-            for (int j = 0; j < x[0].length; j++) {
+            for (int j = 0; j < x[i].length; j++) {
                 tmp += x[i][j];
             }
-            double rata = tmp / x[0].length;
+            double rata = tmp / x[i].length;
             System.out.println("Rata-rata menu ke-"+ (i+1) + ": " + rata);
         }
     }
