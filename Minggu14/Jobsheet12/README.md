@@ -162,8 +162,8 @@ public static void daftarPengunjung(String... namaPengunjung) {
     5. Program kembali ke main dan menampilkan perhitungan.   
 2. Tuliskan output yang dihasilkan program HitungBalokNoAbsen jika pengguna memasukkan panjang = 4, lebar = 3, dan tinggi = 5. Jelaskan secara singkat alur jalannya program sampai output tersebut muncul.    
 Output yang dihasilkan:    
-- Luas persegi panjang = 12    
-- Volume balok = 60   
+    - Luas persegi panjang = 12    
+    - Volume balok = 60   
 Alur:    
     1. Input panjang, lebar, tinggi
     2. Memanggil fungsi hitungLuas dan menghasilkan 12
