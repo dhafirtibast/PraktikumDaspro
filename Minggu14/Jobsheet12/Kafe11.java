@@ -51,8 +51,8 @@ public class Kafe11 {
             jumlahPesanan[i] = sc.nextInt();
         }
 
-        System.out.print("Masukkan kode promo: ");
         sc.nextLine();
+        System.out.print("Masukkan kode promo: ");
         String kodePromo = sc.nextLine();
         int totalHarga = hitungTotalHarga11(pilihanMenu, jumlahPesanan, kodePromo);
 
