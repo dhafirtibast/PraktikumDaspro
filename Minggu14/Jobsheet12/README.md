@@ -16,10 +16,10 @@ No. Absen: 11
 - Modifikasi sudah di-commit pada dengan pesan "Modifikasi Percobaan 2".    
 3. Jelaskan keuntungan menggunakan fungsi Menu() dibandingkan menulis semua perintah penampilan menu langsung di dalam fungsi main.    
 Keuntungan menggunakan fungsi Menu(), antara lain:    
-1. Alur kode akan lebih terstruktur karena fungsi mengurus tampilan menu secara independen.
-2. Fungsi Menu() dapat dipanggil berkali-kali tanpa harus menulis ulang kode.   
-3. Jika daftar menu berubah sewaktu-waktu, cukup ubah kode di bagian fungsi main().   
-4. Uraikan secara singkat alur eksekusi program ketika fungsi Menu() dipanggil dari main (mulai dari program dijalankan sampai daftar menu tampil di layar).    
+    1. Alur kode akan lebih terstruktur karena fungsi mengurus tampilan menu secara independen.
+    2. Fungsi Menu() dapat dipanggil berkali-kali tanpa harus menulis ulang kode.   
+    3. Jika daftar menu berubah sewaktu-waktu, cukup ubah kode di bagian fungsi main().   
+    4. Uraikan secara singkat alur eksekusi program ketika fungsi Menu() dipanggil dari main (mulai dari program dijalankan sampai daftar menu tampil di layar).    
 1. Ketika program dijalankan, eksekusi akan dimulai dari fungsi main
 2. Di dalam main, program memanggil fungsi Menu() lalu eksekusi berpindah ke fungsi Menu().   
 3. Fungsi Menu() akan menjalankan perintah di dalamnya, lalu akan kembali ke fungsi main ketika selesai.   
