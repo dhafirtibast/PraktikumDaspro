@@ -18,12 +18,12 @@ No. Absen: 11
 Keuntungan menggunakan fungsi Menu(), antara lain:    
     1. Alur kode akan lebih terstruktur karena fungsi mengurus tampilan menu secara independen.
     2. Fungsi Menu() dapat dipanggil berkali-kali tanpa harus menulis ulang kode.   
-    3. Jika daftar menu berubah sewaktu-waktu, cukup ubah kode di bagian fungsi main().   
-    4. Uraikan secara singkat alur eksekusi program ketika fungsi Menu() dipanggil dari main (mulai dari program dijalankan sampai daftar menu tampil di layar).    
-1. Ketika program dijalankan, eksekusi akan dimulai dari fungsi main
-2. Di dalam main, program memanggil fungsi Menu() lalu eksekusi berpindah ke fungsi Menu().   
-3. Fungsi Menu() akan menjalankan perintah di dalamnya, lalu akan kembali ke fungsi main ketika selesai.   
-4. Program akan melanjutkan ke kode berikutnya sesuai alur.   
+    3. Jika daftar menu berubah sewaktu-waktu, cukup ubah kode di bagian fungsi main().     
+4. Uraikan secara singkat alur eksekusi program ketika fungsi Menu() dipanggil dari main (mulai dari program dijalankan sampai daftar menu tampil di layar).    
+    1. Ketika program dijalankan, eksekusi akan dimulai dari fungsi main
+    2. Di dalam main, program memanggil fungsi Menu() lalu eksekusi berpindah ke fungsi Menu().   
+    3. Fungsi Menu() akan menjalankan perintah di dalamnya, lalu akan kembali ke fungsi main ketika selesai.   
+    4. Program akan melanjutkan ke kode berikutnya sesuai alur.   
 
 ## Percobaan 2
 ### Pertanyaan
@@ -155,24 +155,24 @@ public static void daftarPengunjung(String... namaPengunjung) {
 ## Percobaan 5
 ### Pertanyaan
 1. Sebutkan tahapan dan urutan eksekusi program pada Percobaan 5, mulai dari program dijalankan hingga menampilkan luas persegi panjang dan volume balok!    
-1. Program dijalankan dan dimulai dari fungsi main.
-2. User memasukkan nilai-nilai yang diminta.
-3. Memanggil fungsi hitungLuas, lalu program menghitung luas persegi panjang.
-4. Memanggil fungsi hitungVolume, lalu program menghitung volume balok.
-5. Program kembali ke main dan menampilkan perhitungan.   
+    1. Program dijalankan dan dimulai dari fungsi main.
+    2. User memasukkan nilai-nilai yang diminta.
+    3. Memanggil fungsi hitungLuas, lalu program menghitung luas persegi panjang.
+    4. Memanggil fungsi hitungVolume, lalu program menghitung volume balok.
+    5. Program kembali ke main dan menampilkan perhitungan.   
 2. Tuliskan output yang dihasilkan program HitungBalokNoAbsen jika pengguna memasukkan panjang = 4, lebar = 3, dan tinggi = 5. Jelaskan secara singkat alur jalannya program sampai output tersebut muncul.    
 Output yang dihasilkan:    
 - Luas persegi panjang = 12    
 - Volume balok = 60   
 Alur:    
-1. Input panjang, lebar, tinggi
-2. Memanggil fungsi hitungLuas dan menghasilkan 12
-3. Memanggil fungsi hitungVolume dan menghasilkan 60
-4. Output hasil   
+    1. Input panjang, lebar, tinggi
+    2. Memanggil fungsi hitungLuas dan menghasilkan 12
+    3. Memanggil fungsi hitungVolume dan menghasilkan 60
+    4. Output hasil   
 
 3. Apakah output dari program di bawah ini kemudian jelaskan alur jalannya program tersebut!   
-1. Program dijalankan dari fungsi main
-2. Memanggil fungsi Jumlah(1, 1), lalu mengembalikan nilai 2 dan dimasukkan ke dalam variabel temp.
-3. Memanggil fungsi TampilJumlah(temp, 5) yang berarti (2, 5).
-4. Di dalam fungsi TampilJumlah, dipanggil fungsi TampilHinggaKei(Jumlah(2, 5)) menghasilkan nilai i = 7.
-5. Fungsi TampilHinggaKei melakukan perulangan yang menampilkan bilangan "1234567".   
+    1. Program dijalankan dari fungsi main
+    2. Memanggil fungsi Jumlah(1, 1), lalu mengembalikan nilai 2 dan dimasukkan ke dalam variabel temp.
+    3. Memanggil fungsi TampilJumlah(temp, 5) yang berarti (2, 5).
+    4. Di dalam fungsi TampilJumlah, dipanggil fungsi TampilHinggaKei(Jumlah(2, 5)) menghasilkan nilai i = 7.
+    5. Fungsi TampilHinggaKei melakukan perulangan yang menampilkan bilangan "1234567".   
