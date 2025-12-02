@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Perobaan2 {
+public class Percobaan2 {
     static int hitungPangkat(int a, int b) {
         if (b == 0) {
             return (1);
